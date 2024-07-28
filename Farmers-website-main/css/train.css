@@ -1,0 +1,93 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    background-color: #228B22;
+    padding: 1em;
+    text-align: left;
+}
+
+.navbar a {
+    color: white;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    display: inline-block;
+}
+.navbar .navbar-brand img {
+    height: 4rem;
+    width: auto;
+}
+
+.navbar a:hover {
+    background-color: #228B22;
+}
+
+main {
+    padding: 2em;
+}
+
+.workshop-details {
+    background-color: #f9f9f9;
+    padding: 1em;
+    border-radius: 5px;
+    margin-bottom: 2em;
+}
+
+.workshop-details ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.workshop-details li {
+    margin-bottom: 0.5em;
+}
+
+.workshop-details li strong {
+    color: #228B22;
+}
+
+.form-section {
+    background-color: #f9f9f9;
+    padding: 1em;
+    border-radius: 5px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 0.5em;
+}
+
+input, select, button {
+    margin-bottom: 1em;
+    padding: 0.5em;
+    font-size: 1em;
+}
+
+button {
+    background-color: #228B22;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #228B22;
+}
+
+footer {
+    background-color: #228B22;
+    color: white;
+    text-align: center;
+    padding: 0.01px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
